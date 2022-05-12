@@ -1,8 +1,12 @@
 # FSS - TSO Full Screen Services
 
+With the permission of Tommy Sprinkle we are maintaining 
+the TSO Full Screen Services implementation.
 
-FSS - TSO Full Screen Services
+[Tommy Sprinkle - FSS](http://www.tommysprinkle.com/mvs/fss/)
 
+
+```
                             Dataset Browser
  Command ===>
  Dataset ---- TCS3.MVS.LOAD
@@ -25,7 +29,7 @@ FSS - TSO Full Screen Services
       0000E0   0000C5E2 E3C1C540 4040001C 112C001D   * ..ESTAE   ...... *
       0000F0   04000000 000002E2 00015001 50000000   * .......S..&.&... *
       000100   88000001 00000000                     * h.......         *
-
+```
 FSS is a C library for displaying formatted screens on a 3270 terminal under TSO. Above is a screen shot of an actual 3270 full-screen application using FSS.
 
 FSS was developed using the JCC compiler and MVS 3.8 running on Hercules. Most of the code should easily port to other compilers.
